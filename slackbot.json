@@ -1,0 +1,200 @@
+{
+  "blocks": [
+    {
+      "type": "section",
+      "text": {
+        "type": "plain_text",
+        "text": "Hello :wave:, are you ready to have fun testing? :rocket:",
+        "emoji": true
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Application:*"
+      }
+    },
+    {
+      "type": "section",
+      "block_id": "section678",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Please select from the list:"
+      },
+      "accessory": {
+        "action_id": "text1234",
+        "type": "multi_static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select items"
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Frontend"
+            },
+            "value": "value-0"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Admin"
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Api"
+            },
+            "value": "value-2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "input",
+      "block_id": "input123",
+      "label": {
+        "type": "plain_text",
+        "text": "Pull Request:"
+      },
+      "element": {
+        "type": "plain_text_input",
+        "action_id": "plain_input",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Enter some plain text"
+        }
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Client Name:*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Pick an item from the dropdown list"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select an item",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Bear & Bear",
+              "emoji": true
+            },
+            "value": "value-0"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Boat International",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "British Homeopathic",
+              "emoji": true
+            },
+            "value": "value-2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Dockwalk",
+              "emoji": true
+            },
+            "value": "value-3"
+          }
+        ],
+        "action_id": "static_select-action"
+      }
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "*Environment:*"
+      }
+    },
+    {
+      "type": "section",
+      "text": {
+        "type": "mrkdwn",
+        "text": "Pick an item from the dropdown list"
+      },
+      "accessory": {
+        "type": "static_select",
+        "placeholder": {
+          "type": "plain_text",
+          "text": "Select an item",
+          "emoji": true
+        },
+        "options": [
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Preview",
+              "emoji": true
+            },
+            "value": "value-0"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Dev",
+              "emoji": true
+            },
+            "value": "value-1"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Stage",
+              "emoji": true
+            },
+            "value": "value-2"
+          },
+          {
+            "text": {
+              "type": "plain_text",
+              "text": "Prod",
+              "emoji": true
+            },
+            "value": "value-3"
+          }
+        ],
+        "action_id": "static_select-action"
+      }
+    }
+  ]
+}
